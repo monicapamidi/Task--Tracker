@@ -6,7 +6,7 @@
 html, body{
     height: 100%;
 }
-/* set the black background for the whole body */
+/*black background for the whole body */
 body {
     background-color: #222222;   
 }
@@ -26,7 +26,7 @@ header {
     font-size: 3rem;   
 }
 .header {
-    font-family: 'Segoe UI';
+    font-family: 'sans-serif';
     padding: 3rem;
     background-color: #F0F0F0;
     box-shadow: 0px 0px 1px 0px #EBF0F2;
@@ -46,7 +46,7 @@ section {
     overflow-y:scroll;    
 }
 .outputtable .Existing-task p, .form-header p{
-    font-family: 'Arial', Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .form-header,
 .Existing-task {
@@ -65,17 +65,17 @@ section {
     margin: 0px 5px 0px 0px;
 }
 .input-form {
-    font-family: 'Segoe UI';
+    font-family: 'sans-serif';
 }
-/* style the form element */
+/* style for the form element */
 .input-form-el {
     margin-bottom: 20px;
 }
-/* style the label */
+/* style fro the label */
 .input-form-element label {
     font-size: 1.2rem;
 }
-/* style the input in the class */
+/* style fror the input in the class */
 .input-form-el input {
     border: 2px solid #e2e0e0;
     background-color: #F0F0F0;
@@ -115,22 +115,22 @@ section {
     padding: 10px;
     /* font-size: 1.2rem; */
 }
-/* set the widths for the name col */
+/* sets the widths for the name column */
 .outputtable table tr td:nth-child(1) {
     width: 8em;
 }
-/* set the widths for the date col */
+/* sets the widths for the date column */
 .outputtable table tr td:nth-child(2) {
     width: 18rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'sans-serif', Tahoma, Geneva, Verdana,;
     padding: 0px;
 }
-/* set the widths for the assignedTo col */
+/* set the widths for the assignedTo column */
 .outputtable table tr td:nth-child(3) {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width:6rem;
 }
-/* to achieve the striped effect */
+/* to show the stripe effect for table rows */
 .outputtable table tr td:nth-child(2n) {
     color: gray;
 }
