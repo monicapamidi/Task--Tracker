@@ -22,18 +22,18 @@ header {
     padding: 10px 10px 0px 10px;
     
 }
- .header h1 {
-    font-size: 3rem;   
+ header .task-header h1 {
+    font-size: 40px;   
 }
-.header {
+.task-header {
     font-family: 'sans-serif';
-    padding: 3rem;
+    padding: 48px;
     background-color: #F0F0F0;
     box-shadow: 0px 0px 1px 0px #EBF0F2;
 }
 .header p{
     color:grey;
-    font-size:1.5rem;
+    font-size:24px;
 }
 section {
     padding: 0px 10px 10px 10px;
@@ -47,10 +47,11 @@ section {
 }
 .outputtable .Existing-task p, .form-header p{
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .form-header,
 .Existing-task {
-    font-size: 2rem;
+    font-size: 24px;
     margin-bottom: 10px;
     margin-bottom: 1em;
 }
@@ -66,14 +67,15 @@ section {
 }
 .input-form {
     font-family: 'sans-serif';
+    font-weight: bold;
 }
 /* style for the form element */
 .input-form-el {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 /* style fro the label */
 .input-form-element label {
-    font-size: 1.2rem;
+    font-size:20px;
 }
 /* style fror the input in the class */
 .input-form-el input {
@@ -81,20 +83,21 @@ section {
     background-color: #F0F0F0;
     padding: 10px;
     width: 100%;
-    height: 3.5rem;
+    height: 40px;
     margin-top: 2%;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 16px;
     outline-offset: 0px;
     outline: none;
 }
 #submit {
     font-family: 'Times New Roman', Times, serif;
-    padding: 15px;
+    padding: 12px;
     background: #554e4e;
     border-radius: 5px;
     color: white;
-    font-size: 1.5rem;   
+    font-size: 20px;
+    height: 50px;  
 }
 .outputtable table {
     border-radius: 4px;
@@ -109,11 +112,10 @@ section {
 }
 .outputtable table tr {
     padding: 10px;
-    height: 3rem;
+    height: 48px;
 }
 .outputtable table tr td {
     padding: 10px;
-    /* font-size: 1.2rem; */
 }
 /* sets the widths for the name column */
 .outputtable table tr td:nth-child(1) {
@@ -121,14 +123,14 @@ section {
 }
 /* sets the widths for the date column */
 .outputtable table tr td:nth-child(2) {
-    width: 18rem;
+    width: 288px;
     font-family: 'sans-serif', Tahoma, Geneva, Verdana,;
     padding: 0px;
 }
 /* set the widths for the assignedTo column */
 .outputtable table tr td:nth-child(3) {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width:6rem;
+    width:96px;
 }
 /* to show the stripe effect for table rows */
 .outputtable table tr td:nth-child(2n) {
