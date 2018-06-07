@@ -65,19 +65,11 @@ $("#submit").click(function () {
       alert("Invalid date format.\nDate must be mm/dd/yyyy")
     }
   }
+  //To alert about the empty fields.
   else {
-    if (!$("#assignedTo").val() && !$("#date").val() && (!$("#name").val())) {
-      alert("Form can't be empty");
+    if (!$("#assignedTo").val() || !$("#date").val() || (!$("#name").val())) {
+      alert("Fill in the empty fields");
     }
-    // if (!$("#assignedTo").val()) {
-    //   $("#assignedTo").focus();
-    // }
-    // if (!$("#date").val()) {
-    //   $("#date").focus();
-    // }
-    // if (!$("#name").val()) {
-    //   $("#name").focus();
-    // }
   }
 })
 $("document").ready(function () {
