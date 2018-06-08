@@ -27,7 +27,7 @@ var data = [
   {
     "name": "Test	Task #6",
     "date": "12/06/2012",
-    "assigned": "John Doe"
+    "assigned": "John Doe"
   },
   {
     "name": "Test	Task #7",
@@ -38,7 +38,7 @@ var data = [
 
 function displayTable() {
   for (i = 0; i < data.length; i++) {
-    $('tbody').append("<tr><td><b>" + data[i].name + "</b></td><td> " + data[i].date + "</td><td><span class='slideRight'>" + data[i].assigned + "</span></td></tr>");
+    $('tbody').append("<tr><td><b>" + data[i].name + "</b></td><td> " + data[i].date + "</td><td>" + data[i].assigned + "</td></tr>");
   }
 }
 

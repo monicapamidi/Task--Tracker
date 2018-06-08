@@ -22,7 +22,7 @@ header {
     padding: 10px 10px 0px 10px;
     
 }
- header .task-header h1 {
+header .task-header h1 {
     font-size: 40px;   
 }
 .task-header {
@@ -43,7 +43,7 @@ section {
 }
 .outputtable {
     margin: 0px 0px 0px 5px;
-    overflow-y:scroll;    
+    /*overflow-y:scroll;    */
 }
 .outputtable .Existing-task p, .form-header p{
     font-family: 'Times New Roman', Times, serif;
@@ -51,7 +51,7 @@ section {
 }
 .form-header,
 .Existing-task {
-    font-size: 24px;
+    font-size: 2rem;
     margin-bottom: 10px;
     margin-bottom: 1em;
 }
@@ -96,7 +96,7 @@ section {
     background: #554e4e;
     border-radius: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 1.5rem;
     height: 50px;  
 }
 .outputtable table {
@@ -112,25 +112,25 @@ section {
 }
 .outputtable table tr {
     padding: 10px;
-    height: 48px;
+    height: 3rem;
 }
 .outputtable table tr td {
     padding: 10px;
 }
 /* sets the widths for the name column */
 .outputtable table tr td:nth-child(1) {
-    width: 8em;
+    width: 10em;
 }
 /* sets the widths for the date column */
 .outputtable table tr td:nth-child(2) {
-    width: 288px;
+    width: 15rem;
     font-family: 'sans-serif', Tahoma, Geneva, Verdana,;
     padding: 0px;
 }
 /* set the widths for the assignedTo column */
 .outputtable table tr td:nth-child(3) {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width:96px;
+    width:6rem;
 }
 /* to show the stripe effect for table rows */
 .outputtable table tr td:nth-child(2n) {
@@ -138,4 +138,15 @@ section {
 }
 .outputtable table tr td:nth-child(2n-1) {
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+    .form , 
+    .outputtable {
+        flex: 1;
+        padding: 5px;
+        margin-top: 20px;
+        background: white;
+        border-radius: 2px;
+    }
 }
